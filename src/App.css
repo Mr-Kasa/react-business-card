@@ -1,5 +1,9 @@
 body {
-  background-color:grey;
+  background-color:lightyellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .container{
   margin-left:15%;
@@ -9,6 +13,7 @@ body {
   flex-direction:column;
   justify-content: center;
   align-items: center;
+
 }
 .imgDiv{
   display: flex;
@@ -63,24 +68,57 @@ p{
 }
 .buttons{
   padding:5px;
+  padding-bottom:2px;
   min-width:100px;
   min-height: 35px;
   margin-left: 2px;
   border-radius:15px;
+  justify-content: center;
+  text-decoration: none;
 }
 
 #linkedin-button{
     background-color: lightblue;
+    text-align: center;
 }
 #Email-button{
   background-color: lightcoral;
+  text-align: center;
 }
 .footer{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   padding: 2rem;
   width: 120%;
   background-color: darkgoldenrod;
   box-shadow: 0px 0px 10px 0px darkgray;
+  margin-bottom: 0;
+ 
+}
+.footerLinks{
+     text-decoration: none;
+     margin:2rem;
+     font-size:200%;
+}
+
+@media (min-width: 1024px) {
+  .selfieImg{
+    min-width: 101%;
+  }
+  .contents{
+    font-size: 150%;
+  }
+  .footer{
+    min-width: 130%;
+  }
+  .footerLinks{
+    margin:5rem;
+    font-size: 400%;
+  }
+}
+@media (min-width:1440px){
+  .footer{
+    margin-top: 62%;
+  }
 }
