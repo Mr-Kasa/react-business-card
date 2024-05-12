@@ -2,11 +2,85 @@ body {
   background-color:grey;
 }
 .container{
-  margin-left:20%;
-  margin-right:20%;
-  margin-top:5%
+  margin-left:15%;
+  margin-right:15%;
+  margin-top:5%;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.imgDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.selfieImg{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  box-shadow: 2px 0px 10px 0px darkgrey;
+  border-radius: 20px 20px 0px 0px;
+  z-index: 100;
 }
 
-.selfieimg{
-  width:2fr;
+.contents{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: chocolate;
+  padding-left: 1em;
+  padding-right: 1em;
+ 
+
+}
+
+h1{
+  text-align: center;
+}
+
+h2 {
+  color: rgb(70, 66, 66);
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+.buttonsDiv{
+  margin-top:60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+.buttons{
+  padding:5px;
+  min-width:100px;
+  min-height: 35px;
+  margin-left: 2px;
+  border-radius:15px;
+}
+
+#linkedin-button{
+    background-color: lightblue;
+}
+#Email-button{
+  background-color: lightcoral;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 120%;
+  background-color: darkgoldenrod;
+  box-shadow: 0px 0px 10px 0px darkgray;
 }
